@@ -14,6 +14,9 @@ const User = db.define("user", {
   picture: {
     type: Sequelize.STRING,
   },
+  isAdmin: {
+    type: DataTypes.BOOLEAN,
+  },
 });
 
 User.sync().then(() => {

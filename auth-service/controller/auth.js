@@ -1,4 +1,4 @@
-const db = require("../config/db");
+// const db = require("../config/db");
 const { ErrorResponse, generateToken, showError } = require("../utils/index");
 const bcrypt = require("bcryptjs");
 const { User } = require("../model/User");
